@@ -1,11 +1,14 @@
 ﻿
 using Microsoft.AspNetCore.Mvc;
 using Application.Service.Authentication;
+//using WebApplication3.Fillters;
+
 namespace WebApplication3.Controller;
 using Contracts;
 
 [ApiController]
 [Route("auth")]
+
 public class AuthenticationController : ControllerBase
 {
     // main controller
@@ -26,10 +29,10 @@ public class AuthenticationController : ControllerBase
             registerRequest.Password
         );
         var reponse = new AuthenticationResponse(
-            authResult.Id,
-            authResult.FistName,
-            authResult.LastName,
-            authResult.Email,
+            authResult.User.Id,
+            authResult.User.FirstName,
+            authResult.User.LastName,
+            authResult.User.Email,
             authResult.Token
             
         );
@@ -46,10 +49,10 @@ public class AuthenticationController : ControllerBase
             loginRequest.Password
         );
         var reponse = new AuthenticationResponse(
-            authResult.Id,
-            authResult.FistName,
-            authResult.LastName,
-            authResult.Email,
+            authResult.User.Id,
+            authResult.User.FirstName,
+            authResult.User.LastName,
+            authResult.User.Email,
             authResult.Token
             
         );
