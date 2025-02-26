@@ -12,9 +12,7 @@ namespace WebApplication3.Controller
         {
             Exception? exception = HttpContext.Features.Get<IExceptionHandlerFeature>()?.Error;
 
-            return Problem(
-               
-            );
+            return Problem(  );
         }
     }
 }

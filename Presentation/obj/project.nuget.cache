@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7wXj8OBJ344=",
+  "dgSpecHash": "5e+vFj4BTiQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\T14 Gen 3\\RiderProjects\\DotnetArchitecture\\Presentation\\Presentation.csproj",
+  "projectFilePath": "C:\\Users\\T14 Gen 3\\RiderProjects\\LearningCleanArchitecture\\ApiVersion1\\Presentation\\Presentation.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\T14 Gen 3\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.13\\microsoft.aspnetcore.openapi.8.0.13.nupkg.sha512",
     "C:\\Users\\T14 Gen 3\\.nuget\\packages\\microsoft.bcl.memory\\9.0.0\\microsoft.bcl.memory.9.0.0.nupkg.sha512",

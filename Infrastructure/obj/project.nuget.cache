@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HOfOqFJ/VTs=",
+  "dgSpecHash": "LD+cagGoegk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\T14 Gen 3\\RiderProjects\\DotnetArchitecture\\Infrastructure\\Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\T14 Gen 3\\RiderProjects\\LearningCleanArchitecture\\ApiVersion1\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\T14 Gen 3\\.nuget\\packages\\microsoft.bcl.memory\\9.0.0\\microsoft.bcl.memory.9.0.0.nupkg.sha512",
     "C:\\Users\\T14 Gen 3\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
